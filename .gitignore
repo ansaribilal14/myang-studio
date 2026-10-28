@@ -1,0 +1,19 @@
+skills/
+node_modules/
+tool-results/
+publish.git/
+__pycache__/
+*.pyc
+.venv/
+.env
+*.log
+
+# Render intermediates (regenerable caches, too heavy for git)
+studio/videos/*/build/layers/
+studio/videos/*/build/check_*.jpg
+studio/videos/*/build/v2_*.jpg
+studio/videos/*/build/raw.mp4
+studio/videos/*/build/mix.wav
+studio/videos/*/build/sfx.wav
+studio/videos/*/build/giong.wav
+studio/videos/*/build/audio/*.wav
